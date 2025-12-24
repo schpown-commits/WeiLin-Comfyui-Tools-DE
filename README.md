@@ -1,464 +1,464 @@
 <div align="center">
   
-### [🇨🇳 简体中文](README.md) | [🇺🇸 English](README_EN.md)
+### [🇨🇳 EN_TEXTChinesisch](README.md) | [🇺🇸 English](README_EN.md)
 
 </div>
 
-# 特别关注！
-##### 一定要进群！一定要进群！一定要进群！
-官方 QQ 群：`1018231382`
+# EN_TEXT！
+##### EN_TEXT！EN_TEXT！EN_TEXT！
+EN_TEXT QQ EN_TEXT：`1018231382`
 
-如果你有什么意见或者想法亦或者是BUG提交请你进入群聊AT群主！或者写群文档中
+WennEN_TEXTBUGEN_TEXTATEN_TEXT！EN_TEXT
 
-插件使用教程：[点击访问](https://www.bilibili.com/list/288025756/?sid=4690314&spm_id_from=333.1387.0.0&oid=114342431298474&bvid=BV1txdfYxE7X)
-或者在B站搜索：WeiLin-Comfyui-Tools
+EN_TEXTVerwendenEN_TEXT：[EN_TEXT](https://www.bilibili.com/list/288025756/?sid=4690314&spm_id_from=333.1387.0.0&oid=114342431298474&bvid=BV1txdfYxE7X)
+EN_TEXTBEN_TEXTSuchen：WeiLin-Comfyui-Tools
 
-# 注意！
-##### 如果你需要使用或不了解又或者想要沟通交流都可以加入QQ群进行了解！
-本插件还是在内测中，目前已经趋于稳定状态！如果要使用请进官方 QQ 群了解详情！
+# EN_TEXT！
+##### WennEN_TEXTVerwendenEN_TEXTQQEN_TEXT！
+EN_TEXT，EN_TEXT！WennEN_TEXTVerwendenEN_TEXT QQ EN_TEXT！
 
-## 配套使用说明 - 旧插件提示词迁移到新插件
-插件有专门的独立后台面板，可以把你的旧版的提示词转换成新版本插件的提示词以及便携式的离线修改Tag，项目入口 [WeiLin-Comfyui-Tools-panel
+## EN_TEXTVerwendenEN_TEXT - EN_TEXTHinweisEN_TEXT
+EN_TEXT，EN_TEXTHinweisEN_TEXTHinweisEN_TEXTÄndernTag，EN_TEXT [WeiLin-Comfyui-Tools-panel
 ](https://github.com/weilin9999/WeiLin-Comfyui-Tools-panel)
 
-## 插件的云Tag和Danbooru数据库仓库
-仓库位置：[WeiLin-Comfyui-Tools-Prompt](https://github.com/weilin9999/WeiLin-Comfyui-Tools-Prompt)，如果你感兴趣可以查看一起协作
+## EN_TEXTTagEN_TEXTDanbooruDatenEN_TEXT
+EN_TEXT：[WeiLin-Comfyui-Tools-Prompt](https://github.com/weilin9999/WeiLin-Comfyui-Tools-Prompt)，WennEN_TEXT
 
-# 作者声明
+# EN_TEXT
 
-由于个人时间有限，更新插件的频率并不会很高，偶尔有空或许会更新一次，每次更新尽量满足所提出的需求，一般没有大的 BUG 基本上更新频率不高，一个月 2~5 更，感谢你对本插件的使用与支持，有需求可以提交 Issue 或者你可以提交你的 Request 帮助本插件更新。
+EN_TEXT，AktualisierenEN_TEXT，EN_TEXTAktualisierenEN_TEXT，EN_TEXTAktualisierenEN_TEXT，EN_TEXT BUG EN_TEXTAktualisierenEN_TEXT，EN_TEXT 2~5 EN_TEXT，EN_TEXTVerwendenEN_TEXT，EN_TEXT Issue EN_TEXT Request EN_TEXTAktualisieren。
 
-# 版本更新介绍
+# EN_TEXTAktualisierenEN_TEXT
 
-> 最新更新：2025-12-21
+> EN_TEXTAktualisieren：2025-12-21
 
-> 0.0.72 公测版本介绍 如果你要使用本插件请务必进我们的官方 QQ 群（1018231382）！
+> 0.0.72 Beta-Version: Einführung WennEN_TEXTVerwendenEN_TEXT QQ EN_TEXT（1018231382）！
 >
-> 1. API翻译模式回归，现在翻译接口重写目前只支持 阿里巴巴翻译接口、Bing翻译接口、有道翻译接口（该接口有请求限制不建议使用），目前这三个接口都是免费，后续会写付费的翻译接口对接
+> 1. APIÜbersetzenEN_TEXT，EN_TEXTÜbersetzenEN_TEXT EN_TEXTÜbersetzenEN_TEXT、BingÜbersetzenEN_TEXT、EN_TEXTÜbersetzenEN_TEXT（EN_TEXTVerwenden），EN_TEXT，EN_TEXTÜbersetzenEN_TEXT
 >
-> 2. 修改了硅基AI和OpenAI翻译的问题，回归成原有的模式
+> 2. ÄndernEN_TEXTAIEN_TEXTOpenAIÜbersetzenEN_TEXT，EN_TEXT
 >
-> 3. 合并PR [#57](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/57) 感谢各位小伙伴的帮助
+> 3. EN_TEXTPR [#57](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/57) EN_TEXT
 >
 
 <details>
-<summary>点击查看往期更多更新内容</summary>
+<summary>EN_TEXTAktualisierenEN_TEXT</summary>
 
 
-> 0.0.71 公测版本介绍 2025-12-20
+> 0.0.71 Beta-Version: Einführung 2025-12-20
 >
-> 1. API翻译模式回归，现在翻译接口重写目前只支持 阿里巴巴翻译接口、Bing翻译接口、有道翻译接口（该接口有请求限制不建议使用），目前这三个接口都是免费，后续会写付费的翻译接口对接
+> 1. APIÜbersetzenEN_TEXT，EN_TEXTÜbersetzenEN_TEXT EN_TEXTÜbersetzenEN_TEXT、BingÜbersetzenEN_TEXT、EN_TEXTÜbersetzenEN_TEXT（EN_TEXTVerwenden），EN_TEXT，EN_TEXTÜbersetzenEN_TEXT
 >
-> 2. 修改了硅基AI和OpenAI翻译的问题，回归成原有的模式
->
-
-> 0.0.70 公测版本介绍 2025-12-19
->
-> 1. API翻译模式回归，现在翻译接口重写目前只支持 阿里巴巴翻译接口、Bing翻译接口、有道翻译接口（该接口有请求限制不建议使用），目前这三个接口都是免费，后续会写付费的翻译接口对接
+> 2. ÄndernEN_TEXTAIEN_TEXTOpenAIÜbersetzenEN_TEXT，EN_TEXT
 >
 
-> 0.0.69 公测版本介绍 2025-12-06
+> 0.0.70 Beta-Version: Einführung 2025-12-19
 >
-> 1. 合并PR [#50](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/50) 感谢各位小伙伴的帮助
->
-> 2. 合并PR [#52](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/52) 感谢各位小伙伴的帮助
+> 1. APIÜbersetzenEN_TEXT，EN_TEXTÜbersetzenEN_TEXT EN_TEXTÜbersetzenEN_TEXT、BingÜbersetzenEN_TEXT、EN_TEXTÜbersetzenEN_TEXT（EN_TEXTVerwenden），EN_TEXT，EN_TEXTÜbersetzenEN_TEXT
 >
 
-> 0.0.68 公测版本介绍 2025-11-08
+> 0.0.69 Beta-Version: Einführung 2025-12-06
 >
-> 1. 修复悬浮球功能菜单样式丢失问题
+> 1. EN_TEXTPR [#50](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/50) EN_TEXT
 >
-> 2. 修复一些已知的BUG（Lora堆最后一个删除不了的问题，Tag提示词清空问题，Tag权重负数问题）
->
-> 3. 新增功能：一键清空功能，能清空所有的内容
+> 2. EN_TEXTPR [#52](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/52) EN_TEXT
 >
 
-> 0.0.67 公测版本介绍 2025-10-26
+> 0.0.68 Beta-Version: Einführung 2025-11-08
 >
-> 1. 修复一键翻译不全的问题
+> 1. EN_TEXT
 >
-> 2. 合并PR [#46](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/46) 感谢各位小伙伴的帮助
+> 2. EN_TEXTBUG（LoraEN_TEXTLöschenEN_TEXT，TagHinweisEN_TEXTLeerenEN_TEXT，TagEN_TEXT）
 >
-> 3. 新增功能：在Tag中的右侧添加了一个删除按钮，方便删除Tag
+> 3. EN_TEXT：EN_TEXTLeerenEN_TEXT，EN_TEXTLeerenEN_TEXT
 >
 
-> 0.0.66 公测版本介绍 2025-10-12
+> 0.0.67 Beta-Version: Einführung 2025-10-26
 >
-> 1. 修复了一些已知的BUG
+> 1. EN_TEXTÜbersetzenEN_TEXT
 >
-> 2. 合并PR [#44](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/44) 感谢各位小伙伴的帮助
+> 2. EN_TEXTPR [#46](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/46) EN_TEXT
 >
-> 3. 新增功能：在Tag的控制栏中可以一键收藏Tag，还添加了添加换行符的功能
+> 3. EN_TEXT：EN_TEXTTagEN_TEXTHinzufügenEN_TEXTLöschenEN_TEXT，EN_TEXTLöschenTag
+>
+
+> 0.0.66 Beta-Version: Einführung 2025-10-12
+>
+> 1. EN_TEXTBUG
+>
+> 2. EN_TEXTPR [#44](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/44) EN_TEXT
+>
+> 3. EN_TEXT：EN_TEXTTagEN_TEXTTag，EN_TEXTHinzufügenEN_TEXTHinzufügenEN_TEXT
 > 
-> 4. 翻译大修改！本次更新将翻译功能全部重改了，使用AI进行翻译，对接硅基AI进行调用API翻译，如果你想要对接其它的AI平台你可以进群提交建议，后续更新会添加新的平台
+> 4. ÜbersetzenEN_TEXTÄndern！EN_TEXTAktualisierenEN_TEXTÜbersetzenEN_TEXTAlleEN_TEXT，VerwendenAIEN_TEXTÜbersetzen，EN_TEXTAIEN_TEXTAPIÜbersetzen，WennEN_TEXTAIEN_TEXT，EN_TEXTAktualisierenEN_TEXTHinzufügenEN_TEXT
 >
 
-> 0.0.65 公测版本介绍 2025-09-23
+> 0.0.65 Beta-Version: Einführung 2025-09-23
 >
-> 1. 修复了一些已知的BUG
+> 1. EN_TEXTBUG
 >
-> 2. 合并PR [#40](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/40) 感谢各位小伙伴的帮助
+> 2. EN_TEXTPR [#40](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/40) EN_TEXT
 >
-> 3. 合并PR [#43](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/43) 感谢各位小伙伴的帮助
-> 
-
-> 0.0.64 公测版本介绍 2025-09-14
->
-> 1. 修复了已知BUG（Comfyui中执行栏拖拽图标错位问题）
->
-> 2. 修改部分UI问题
->
-> 3. 合并PR [#38](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/38) 感谢各位小伙伴的帮助
-> 
-> 4. 下午5点30分：侧边标签增加收纳功能
-
-> 0.0.62 公测版本介绍 2025-09-13
->
-> 1. 修复了已知BUG（Tag分享问题）
->
-> 2. 修改部分UI（设置、弹窗）
->
-> 3. 增加Tag二级目录的分享功能
->
-> 4. 合并PR [#37](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/37) 感谢各位小伙伴的帮助
-> 
-> 5. 修复节点不使用加载问题，如果节点不连接或者不使用请关闭节点上的随机提示词开关！
->
-
-> 0.0.61 公测版本介绍 2025-08-06
->
-> 1. 修复了已知BUG（节点不加载时运行流程也会导致节点加载）(随机tag加载问题)
->
-> 2. 修复在部分情况下打开弹窗的错误问题
->
-> 3. 增加了Tag分组的大小调节功能
->
-> 4. 增加了更新弹窗不再提示功能
+> 3. EN_TEXTPR [#43](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/43) EN_TEXT
 > 
 
-> 0.0.60 公测版本介绍 2025-07-11
+> 0.0.64 Beta-Version: Einführung 2025-09-14
 >
-> 1. 修复了已知BUG（节点不加载时运行流程也会导致节点加载）
+> 1. EN_TEXTBUG（ComfyuiEN_TEXT）
 >
-> 2. 新增功能：Danbooru管理器，可以快捷管理Danbooru的数据更加方便
+> 2. ÄndernEN_TEXTUIEN_TEXT
+>
+> 3. EN_TEXTPR [#38](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/38) EN_TEXT
+> 
+> 4. EN_TEXT5EN_TEXT30EN_TEXT：EN_TEXTTagsEN_TEXT
+
+> 0.0.62 Beta-Version: Einführung 2025-09-13
+>
+> 1. EN_TEXTBUG（TagEN_TEXT）
+>
+> 2. ÄndernEN_TEXTUI（Einstellungen、EN_TEXT）
+>
+> 3. EN_TEXTTagEN_TEXT
+>
+> 4. EN_TEXTPR [#37](https://github.com/weilin9999/WeiLin-Comfyui-Tools/pull/37) EN_TEXT
+> 
+> 5. EN_TEXTVerwendenLadenEN_TEXT，WennEN_TEXTVerwendenEN_TEXTSchließenEN_TEXTZufälligHinweisEN_TEXT！
+>
+
+> 0.0.61 Beta-Version: Einführung 2025-08-06
+>
+> 1. EN_TEXTBUG（EN_TEXTLadenEN_TEXTLaden）(ZufälligtagLadenEN_TEXT)
+>
+> 2. EN_TEXTÖffnenEN_TEXTFehlerEN_TEXT
+>
+> 3. EN_TEXTTagEN_TEXT
+>
+> 4. EN_TEXTAktualisierenEN_TEXTHinweisEN_TEXT
+> 
+
+> 0.0.60 Beta-Version: Einführung 2025-07-11
+>
+> 1. EN_TEXTBUG（EN_TEXTLadenEN_TEXTLaden）
+>
+> 2. EN_TEXT：DanbooruEN_TEXT，EN_TEXTDanbooruEN_TEXTDatenEN_TEXT
 >
 
 
-> 0.0.59 公测版本介绍 2025-05-08
+> 0.0.59 Beta-Version: Einführung 2025-05-08
 >
-> 1. 修复了已知BUG
+> 1. EN_TEXTBUG
 >
-> 2. 新增功能（测试）：Lora可以以Tag形式加载（仅全能提示词编辑器生效）在编辑器下方的Lora管理器点击添加Tag即可我们插件识别的方式为```<wlr:Lora名称:模型权重:文本权重>``` 
+> 2. EN_TEXT（EN_TEXT）：LoraEN_TEXTTagEN_TEXTLaden（EN_TEXTHinweisEN_TEXTBearbeitenEN_TEXT）EN_TEXTBearbeitenEN_TEXTLoraEN_TEXTHinzufügenTagEN_TEXT```<wlr:LoraName:EN_TEXT:EN_TEXT>``` 
 >
-> 3. 修复了Lora管理器二级目录加载的问题
+> 3. EN_TEXTLoraEN_TEXTLadenEN_TEXT
 >
-> 4. 修复了Tag管理器Tag点击排序的bug问题
+> 4. EN_TEXTTagEN_TEXTTagEN_TEXTbugEN_TEXT
 
-> 0.0.58 公测版本介绍 2025-05-07
+> 0.0.58 Beta-Version: Einführung 2025-05-07
 >
-> 1. 修复了已知BUG
+> 1. EN_TEXTBUG
 >
-> 2. 修改Lora悬浮卡片的大小了位置
+> 2. ÄndernLoraEN_TEXT
 >
-> 3. 功能升级：悬浮球可自定义皮肤和颜色
+> 3. EN_TEXT：EN_TEXT
 >
-> 4. 功能优化：历史记录信息简化显示
+> 4. EN_TEXT：EN_TEXTInfoEN_TEXT
 >
-> 5. 新增功能：随机Tag功能，可以设定模板，一键随机Tag
+> 5. EN_TEXT：ZufälligTagEN_TEXT，EN_TEXTVorlage，EN_TEXTZufälligTag
 >
-> 6. 功能优化：Tag管理器的分类栏可以修改顺序和位置
+> 6. EN_TEXT：TagEN_TEXTÄndernEN_TEXT
 >
-> 7. 功能优化：Tag管理器搜索的匹配结果更精确
+> 7. EN_TEXT：TagEN_TEXTSuchenEN_TEXT
 >
-> 8. 小功能：输入框左下角添加了Token长度显示
+> 8. EN_TEXT：EN_TEXTHinzufügenEN_TEXTTokenEN_TEXT
 >
-> 9. 修复输入框记录高度小概率触发高度变成很矮的情况
+> 9. EN_TEXT
 >
-> 10. 插件有新版本时窗口左下角会提示更新
+> 10. EN_TEXTHinweisAktualisieren
 >
-> 11. 节点新增功能：自动随机Tag，设置好了模板即可使用，每个节点的随机模板都是不同的可以自定义化
+> 11. EN_TEXT：EN_TEXTZufälligTag，EinstellungenEN_TEXTVorlageEN_TEXTVerwenden，EN_TEXTZufälligVorlageEN_TEXT
 >
-> 12. 修改了Lora管理器，新增了二级目录显示全部的功能，修改了目录栏的高度问题
->
-
-> 0.0.53 公测版本介绍 2025-04-30
->
-> 1. 功能优化：修复了在日间模式下的Lora详细内容的按钮样式看不到问题
->
-> 2. 修复了issues [#14](https://github.com/weilin9999/WeiLin-Comfyui-Tools/issues/14#issuecomment-2840561525) 当第一行只有一个Tag的时候会触发换行不添加末尾逗号
+> 12. ÄndernEN_TEXTLoraEN_TEXT，EN_TEXTAlleEN_TEXT，ÄndernEN_TEXT
 >
 
-> 0.0.52 公测版本介绍 2025-04-28
+> 0.0.53 Beta-Version: Einführung 2025-04-30
 >
-> 1. 新增功能：Lora详细界面内可以自定义自己的字段
+> 1. EN_TEXT：EN_TEXTLoraEN_TEXT
 >
-> 2. 新增功能：在插件（非节点）UI内鼠标悬浮在Lora卡片上能显示Lora的基本信息
->
-> 3. 修复了已知的BUG
->
-> 4. Lora获取C站数据的时候可以一并获取封面了
+> 2. EN_TEXTissues [#14](https://github.com/weilin9999/WeiLin-Comfyui-Tools/issues/14#issuecomment-2840561525) EN_TEXTTagEN_TEXTHinzufügenEN_TEXT
 >
 
-> 0.0.48 公测版本介绍 2025-04-25
+> 0.0.52 Beta-Version: Einführung 2025-04-28
 >
-> 1. 新增辅助功能，限制了窗口的移动范围防止超出可视范围，以及悬浮球也限制了移动范围
+> 1. EN_TEXT：LoraEN_TEXT
 >
-
-> 0.0.46 公测版本介绍 2025-04-24
+> 2. EN_TEXT：EN_TEXT（EN_TEXT）UIEN_TEXTLoraEN_TEXTLoraEN_TEXTInfo
 >
-> 1. 修复了一些已知的BUG
+> 3. EN_TEXTBUG
 >
-> 2. 优化功能：补全提示词，详情：
->    * 在设置中可以设置显示条数以及设置补全框的大小
->    * 补全框现在可以跟着输入的位置移动了
+> 4. LoraAbrufenCEN_TEXTDatenEN_TEXTAbrufenEN_TEXT
 >
 
-> 0.0.45 公测版本介绍 2025-04-22
+> 0.0.48 Beta-Version: Einführung 2025-04-25
 >
-> 1. 修复了一些已知的BUG
->
-> 2. 新增功能：批量导入Tag功能（修改了一些逻辑问题和优化一些新的功能）
->
-> 3. 新增：记录输入框的高度，每次打开都会保持到上一次的状态高度
->
-> 4. 修复Lora管理器加载不全问题
+> 1. EN_TEXT，EN_TEXT，EN_TEXT
 >
 
-> 0.0.42 公测版本介绍 2025-04-22
+> 0.0.46 Beta-Version: Einführung 2025-04-24
 >
-> 1. 修复了一些已知的BUG
+> 1. EN_TEXTBUG
 >
-> 2. 新增功能：批量导入Tag功能
->
-> 3. 新增功能：分享Tag和批量分享的功能
->
-
-> 0.0.41 公测版本介绍 2025-04-16
->
-> 1. 修复了一些已知的BUG
+> 2. EN_TEXT：EN_TEXTHinweisEN_TEXT，EN_TEXT：
+>    * EN_TEXTEinstellungenEN_TEXTEinstellungenEN_TEXTEinstellungenEN_TEXT
+>    * EN_TEXT
 >
 
-
-> 0.0.40 公测版本介绍 2025-04-15
+> 0.0.45 Beta-Version: Einführung 2025-04-22
 >
-> 1. 修复了节点运行报错问题，修复了一些已知的BUG
+> 1. EN_TEXTBUG
 >
-> 2. 修改Lora堆节点，可以直接在节点操作Lora堆
+> 2. EN_TEXT：StapelImportierenTagEN_TEXT（ÄndernEN_TEXT）
 >
-
-> 0.0.38 公测版本介绍 2025-04-14
+> 3. EN_TEXT：EN_TEXT，EN_TEXTÖffnenEN_TEXT
 >
-> 1. 修复了一些已知的BUG
->
-> 2. 新增节点 仅Lora堆 节点
->
-> 3. 优化Lora管理器，在UI主界面增加Lora管理器的快捷窗口
->
-> 4. 在节点中增加了Lora堆的快捷按钮，点击即可直接显示节点的Lora堆信息可以快捷修改
+> 4. EN_TEXTLoraEN_TEXTLadenEN_TEXT
 >
 
-> 0.0.37 公测版本介绍 2025-04-13
+> 0.0.42 Beta-Version: Einführung 2025-04-22
 >
-> 1. 修复了一些已知的BUG
+> 1. EN_TEXTBUG
 >
-> 2. 优化了Lora管理器卡顿问题
+> 2. EN_TEXT：StapelImportierenTagEN_TEXT
 >
-> 3. Lora详情中增加了基础模型显示和Lora Raw数据显示
->
-> 4. 增加了Tag操作提示
->
-> 5. 在悬浮球增加了图片转换功能
+> 3. EN_TEXT：EN_TEXTTagEN_TEXTStapelEN_TEXT
 >
 
-> 0.0.36 公测版本介绍 2025-04-08
+> 0.0.41 Beta-Version: Einführung 2025-04-16
 >
-> 1. 修复了一些已知的BUG
->
-> 2. 优化了补全功能的精准度
->
-
-> 0.0.35 公测版本介绍 2025-04-07
->
-> 1. 新增功能可以隐藏Lora和隐藏Tag的功能，可以临时屏蔽你想要的Lora和Tag
->
-
-> 0.0.34 公测版本介绍 2025-04-06
->
-> 1. 修复了历史记录不会记录的问题
->
-
-> 0.0.33 公测版本介绍 2025-04-04
->
-> 1. 修复收藏和历史记录的请求错误问题
->
-
-> 0.0.32 公测版本介绍 2025-04-03
->
-> 1. **再次修复该问题-问题已被解决** 修复旧数据迁移不会将自己加的数据迁入问题，大家可以去```user_data_old```这个目录将数据文件名称修改成```userdatas_zh_CN.db```再返回文件夹```user_data```将该文件夹文件都删除，然后将修改名称为```userdatas_zh_CN.db```粘贴到此文件夹启动Comfyui即可再次迁移数据！
+> 1. EN_TEXTBUG
 >
 
 
-> 0.0.31 公测版本介绍 2025-04-02
+> 0.0.40 Beta-Version: Einführung 2025-04-15
 >
-> 1. 新增换行符显示，以及换行之后Tag显示也会跟着换行
+> 1. EN_TEXT，EN_TEXTBUG
 >
-> 2. 修复旧数据迁移不会将自己加的数据迁入问题，大家可以去```user_data_old```这个目录将数据文件名称修改成```userdatas_zh_CN.db```再返回文件夹```user_data```将该文件夹文件都删除，然后将修改名称为```userdatas_zh_CN.db```粘贴到此文件夹启动Comfyui即可再次迁移数据！
+> 2. ÄndernLoraEN_TEXT，EN_TEXTLoraEN_TEXT
 >
 
-> 0.0.30 公测版本介绍 2025-04-01
+> 0.0.38 Beta-Version: Einführung 2025-04-14
 >
-> 1. 修复Tag在编辑的时候移动问题
+> 1. EN_TEXTBUG
 >
-> 2. 新增了云仓库！大家可以使用云仓库动态获取提示词或者更新Danbooru了，在UI界面“共享云数据”中打开！
+> 2. EN_TEXT EN_TEXTLoraEN_TEXT EN_TEXT
 >
-> 3. 优化性能问题
+> 3. EN_TEXTLoraEN_TEXT，EN_TEXTUIEN_TEXTLoraEN_TEXT
 >
-> 4. 修复了一些已知的BUG
+> 4. EN_TEXTLoraEN_TEXT，EN_TEXTLoraEN_TEXTInfoEN_TEXTÄndern
+>
 
-> 0.0.28 公测版本介绍 2025-03-31
+> 0.0.37 Beta-Version: Einführung 2025-04-13
 >
-> 1. 修改了全新的数据库拉取方式已经公开了仓库：[WeiLin-Comfyui-Tools-Prompt](https://github.com/weilin9999/WeiLin-Comfyui-Tools-Prompt)，有兴趣的伙伴可以查看怎么添加自己的tag或者danbooru
+> 1. EN_TEXTBUG
 >
-> 2. 优化了自动补全的功能
+> 2. EN_TEXTLoraEN_TEXT
+>
+> 3. LoraEN_TEXTLora RawDatenEN_TEXT
+>
+> 4. EN_TEXTTagEN_TEXTHinweis
+>
+> 5. EN_TEXT
+>
 
-> 0.0.27 公测版本介绍 2025-03-30
+> 0.0.36 Beta-Version: Einführung 2025-04-08
 >
-> 1. 搜索Tag时有高亮，同时可以选择自动添加搜索的Tag到提示词中
+> 1. EN_TEXTBUG
 >
-> 2. 修改Lora详细页面中的提示词增加了隐藏和展开的功能
+> 2. EN_TEXT
 >
-> 3. 修改Tag编辑的操作无处的方法，增加了一个编辑模式选择
 
-> 0.0.26 公测版本介绍：2025-03-27
+> 0.0.35 Beta-Version: Einführung 2025-04-07
 >
-> 1. 修改了提示词默认自动加入逗号
+> 1. EN_TEXTLoraEN_TEXTTagEN_TEXT，EN_TEXTLoraEN_TEXTTag
 >
-> 2. 修改测试翻译错误的提示，以免误导
->
-> 3. 隐藏Lora框，让节点更干净
 
-> 0.0.24 2025-03-25 公测版本介绍
+> 0.0.34 Beta-Version: Einführung 2025-04-06
 >
-> 1. 在UI设置中添加了翻译库功能，可以替换三方翻译使用翻译库功能，需要安装翻译库点击安装即可，使用方便翻译功能完善 -- v0.0.23 2025-03-24
+> 1. EN_TEXT
 >
-> 2. 新增节点：不加载Lora，此节点没有Lora的信息框可以减小节点的大小 -- v0.0.23 2025-03-24
->
-> 3. 修复历史记录不记录问题，修改收藏的名称不显示的问题 -- v0.0.23 2025-03-24
->
-> 4. 修复Lora堆最后一个不删除问题 -- v0.0.23 2025-03-24
->
-> 5. 优化Tag过多导致翻译超时或获取本地数据超时的问题 -- v0.0.23 2025-03-24
->
-> 6. 修复悬浮球会跳动问题 -- v0.0.23 2025-03-24
->
-> 7. 调整：悬浮最小大小为6，大小上线999999，悬浮球最大个数上限调整至100 -- v0.0.23 2025-03-24
->
-> 8. 修复在Comfyui版本v0.3.27中插件无法正常使用问题 -- v0.0.24 2025-03-25
 
-> 0.0.20 2025-03-18 公测版本介绍
+> 0.0.33 Beta-Version: Einführung 2025-04-04
 >
-> 1.修复已知的BUG
+> 1. EN_TEXTFehlerEN_TEXT
+>
 
-> 0.0.19 2025-03-17 公测版本介绍
+> 0.0.32 Beta-Version: Einführung 2025-04-03
 >
-> 1.拆分节点提示词和Lora的文本，更加直观
+> 1. **EN_TEXT-EN_TEXT** EN_TEXTDatenEN_TEXTDatenEN_TEXT，EN_TEXT```user_data_old```EN_TEXTDatenDateiNameÄndernEN_TEXT```userdatas_zh_CN.db```EN_TEXTDateiEN_TEXT```user_data```EN_TEXTDateiEN_TEXTDateiEN_TEXTLöschen，EN_TEXTÄndernNameEN_TEXT```userdatas_zh_CN.db```EinfügenEN_TEXTDateiEN_TEXTComfyuiEN_TEXTDaten！
 >
->2.新增Lora支持搜索的功能，更快找到自己想要的Lora
-
-> 0.0.18 2025-03-03 公测版本介绍
->
-> 1.新增节点列表（悬浮球中打开），可以快捷打开本节点所有的Node，不需要再放大节点找
 
 
-> 0.0.17 公测版本介绍 2025-02-22
+> 0.0.31 Beta-Version: Einführung 2025-04-02
 >
-> 1.修复权重添加会删除其它括号类型的BUG
+> 1. EN_TEXT，EN_TEXTTagEN_TEXT
+>
+> 2. EN_TEXTDatenEN_TEXTDatenEN_TEXT，EN_TEXT```user_data_old```EN_TEXTDatenDateiNameÄndernEN_TEXT```userdatas_zh_CN.db```EN_TEXTDateiEN_TEXT```user_data```EN_TEXTDateiEN_TEXTDateiEN_TEXTLöschen，EN_TEXTÄndernNameEN_TEXT```userdatas_zh_CN.db```EinfügenEN_TEXTDateiEN_TEXTComfyuiEN_TEXTDaten！
+>
 
-> 0.0.16 2025-02-14 公测版本介绍
+> 0.0.30 Beta-Version: Einführung 2025-04-01
 >
-> 1.节点修改，新增了clip节点输出
+> 1. EN_TEXTTagEN_TEXTBearbeitenEN_TEXT
 >
-> 2.节点修改，新增了string内容输入合并
+> 2. EN_TEXT！EN_TEXTVerwendenEN_TEXTAbrufenHinweisEN_TEXTAktualisierenDanbooruEN_TEXT，EN_TEXTUIEN_TEXT“EN_TEXTDaten”EN_TEXTÖffnen！
 >
-> 3.修复了已知BUG
+> 3. EN_TEXT
 >
-> 4.修改了Tag的控制栏的括号加减问题
+> 4. EN_TEXTBUG
+
+> 0.0.28 Beta-Version: Einführung 2025-03-31
+>
+> 1. ÄndernEN_TEXTDatenEN_TEXT：[WeiLin-Comfyui-Tools-Prompt](https://github.com/weilin9999/WeiLin-Comfyui-Tools-Prompt)，EN_TEXTHinzufügenEN_TEXTtagEN_TEXTdanbooru
+>
+> 2. EN_TEXT
+
+> 0.0.27 Beta-Version: Einführung 2025-03-30
+>
+> 1. SuchenTagEN_TEXT，EN_TEXTAuswählenEN_TEXTHinzufügenSuchenEN_TEXTTagEN_TEXTHinweisEN_TEXT
+>
+> 2. ÄndernLoraEN_TEXTHinweisEN_TEXT
+>
+> 3. ÄndernTagBearbeitenEN_TEXTMethode，EN_TEXTBearbeitenEN_TEXTAuswählen
+
+> 0.0.26 Beta-Version: Einführung：2025-03-27
+>
+> 1. ÄndernEN_TEXTHinweisEN_TEXTStandardEN_TEXT
+>
+> 2. ÄndernEN_TEXTÜbersetzenFehlerEN_TEXTHinweis，EN_TEXT
+>
+> 3. EN_TEXTLoraEN_TEXT，EN_TEXT
+
+> 0.0.24 2025-03-25 Beta-Version: Einführung
+>
+> 1. EN_TEXTUIEinstellungenEN_TEXTHinzufügenEN_TEXTÜbersetzenEN_TEXT，EN_TEXTÜbersetzenVerwendenÜbersetzenEN_TEXT，EN_TEXTÜbersetzenEN_TEXT，VerwendenEN_TEXTÜbersetzenEN_TEXT -- v0.0.23 2025-03-24
+>
+> 2. EN_TEXT：EN_TEXTLadenLora，EN_TEXTLoraEN_TEXTInfoEN_TEXT -- v0.0.23 2025-03-24
+>
+> 3. EN_TEXT，ÄndernEN_TEXTNameEN_TEXT -- v0.0.23 2025-03-24
+>
+> 4. EN_TEXTLoraEN_TEXTLöschenEN_TEXT -- v0.0.23 2025-03-24
+>
+> 5. EN_TEXTTagEN_TEXTÜbersetzenEN_TEXTAbrufenEN_TEXTDatenEN_TEXT -- v0.0.23 2025-03-24
+>
+> 6. EN_TEXT -- v0.0.23 2025-03-24
+>
+> 7. EN_TEXT：EN_TEXT6，EN_TEXT999999，EN_TEXT100 -- v0.0.23 2025-03-24
+>
+> 8. EN_TEXTComfyuiEN_TEXTv0.3.27EN_TEXTVerwendenEN_TEXT -- v0.0.24 2025-03-25
+
+> 0.0.20 2025-03-18 Beta-Version: Einführung
+>
+> 1.EN_TEXTBUG
+
+> 0.0.19 2025-03-17 Beta-Version: Einführung
+>
+> 1.EN_TEXTHinweisEN_TEXTLoraEN_TEXT，EN_TEXT
+>
+>2.EN_TEXTLoraEN_TEXTSuchenEN_TEXT，EN_TEXTLora
+
+> 0.0.18 2025-03-03 Beta-Version: Einführung
+>
+> 1.EN_TEXT（EN_TEXTÖffnen），EN_TEXTÖffnenEN_TEXTNode，EN_TEXT
 
 
-> 0.0.15 公测版本介绍
+> 0.0.17 Beta-Version: Einführung 2025-02-22
 >
-> 1.节点修改，新增了clip节点输出
+> 1.EN_TEXTHinzufügenEN_TEXTLöschenEN_TEXTTypEN_TEXTBUG
+
+> 0.0.16 2025-02-14 Beta-Version: Einführung
 >
-> 2.节点修改，新增了string内容输入合并
+> 1.EN_TEXTÄndern，EN_TEXTclipEN_TEXT
+>
+> 2.EN_TEXTÄndern，EN_TEXTstringEN_TEXT
+>
+> 3.EN_TEXTBUG
+>
+> 4.ÄndernEN_TEXTTagEN_TEXT
 
 
-> 0.0.13 公测版本介绍
+> 0.0.15 Beta-Version: Einführung
 >
-> 1.修复了已知 BUG
+> 1.EN_TEXTÄndern，EN_TEXTclipEN_TEXT
 >
-> 2.新增功能-Lora 支持一键缓存所有 Lora 文件
->
-> 3.新增功能-支持加载 Lora 的时候同时加载对应的 Lora 提示词（需要给 Lora 设置提示词才可生效！）
+> 2.EN_TEXTÄndern，EN_TEXTstringEN_TEXT
 
-> 0.0.12 公测版本介绍
->
-> 1.修复了已知 BUG
 
-> 0.0.0.3 内测版本介绍
+> 0.0.13 Beta-Version: Einführung
 >
-> 1.更新了 AI 对话功能
+> 1.EN_TEXT BUG
 >
-> 2.更新了 Danbooru 词库到 2024-11-30
+> 2.EN_TEXT-Lora EN_TEXT Lora Datei
 >
-> 3.将所有 tag 和词库都写入到数据库中，我们不再使用 json 文件来存储我们的 tag 和词库，因为数据太多检索起来太慢了
->
-> 4.优化了性能
+> 3.EN_TEXT-EN_TEXTLaden Lora EN_TEXTLadenEN_TEXT Lora HinweisEN_TEXT（EN_TEXT Lora EinstellungenHinweisEN_TEXT！）
 
-> 0.0.0.1 版本介绍 （由于本人工作原因空闲时间才有时间更新插件，见谅！在此非常感谢大家对本插件的支持！）
+> 0.0.12 Beta-Version: Einführung
 >
-> 1. 上传插件 0.0.0.1 版本
+> 1.EN_TEXT BUG
+
+> 0.0.0.3 EN_TEXT
+>
+> 1.AktualisierenEN_TEXT AI DialogEN_TEXT
+>
+> 2.AktualisierenEN_TEXT Danbooru EN_TEXT 2024-11-30
+>
+> 3.EN_TEXT tag EN_TEXTDatenEN_TEXT，EN_TEXTVerwenden json DateiEN_TEXT tag EN_TEXT，EN_TEXTDatenEN_TEXT
+>
+> 4.EN_TEXT
+
+> 0.0.0.1 EN_TEXT （EN_TEXTAktualisierenEN_TEXT，EN_TEXT！EN_TEXT！）
+>
+> 1. HochladenEN_TEXT 0.0.0.1 EN_TEXT
 
 </details>
 
-# 概要说明
+# EN_TEXT
 
-本项目可以让你在 ComfyUI 中快捷的使用提示词工具
-如果你对本项目有兴趣赏一个 Star 吧！
+EN_TEXT ComfyUI EN_TEXTVerwendenHinweisEN_TEXT
+WennEN_TEXT Star EN_TEXT！
 
-# 如何参与开发？
+# EN_TEXT？
 
-#### 项目主要结构
+#### EN_TEXT
 ```
 WeiLin-Comfyui-Tools 
-├── README.md - 中文文档
-├── README_EN.md - 英文文档
-├── __init__.py - 插件主入口
-├── app - 插件的业务代码（API、数据库操作等）
+├── README.md - ChinesischEN_TEXT
+├── README_EN.md - EnglischEN_TEXT
+├── __init__.py - EN_TEXT
+├── app - EN_TEXT（API、DatenEN_TEXT）
 │   ├── __init__.py
-│   └── server - 服务入口
+│   └── server - EN_TEXT
 │       ├── __pycache__
-│       ├── ai_translator - AI设置业务层
-│       ├── dao - 数据层操作
-│       ├── fast_autocomplete - 补全功能业务层
-│       ├── history - 历史记录业务层
-│       ├── prompt_api - 提示词业务层
-│       ├── prompt_server.py - API暴露入口
-│       ├── translate - 本地/离线翻译Tag业务层
-│       └── user_init - 用户设置初始化业务层
-├── dist - 前端编译后的文件
-├── init.json - AI服务的Key保存文件
-├── install_request.py - 自动安装功能
-├── js_node - comfyui的JS业务代码
-├── lora_userdatas - 用户Lora的本地数据
-├── pyproject.toml - comfyui的仓库文件
-├── requirements.txt - 安装三方库检测文件
-├── src - 前端源码
-├── tags_templete 用户数据库文件模板 （Tag和Danbooru，如果需要修改请前往插件配套的后台面板使用）
-└── user_data 用户使用的数据库文件（不需要修改）
+│       ├── ai_translator - AIEinstellungenEN_TEXT
+│       ├── dao - DatenEN_TEXT
+│       ├── fast_autocomplete - EN_TEXT
+│       ├── history - EN_TEXT
+│       ├── prompt_api - HinweisEN_TEXT
+│       ├── prompt_server.py - APIEN_TEXT
+│       ├── translate - EN_TEXT/EN_TEXTÜbersetzenTagEN_TEXT
+│       └── user_init - EN_TEXTEinstellungenEN_TEXT
+├── dist - EN_TEXTDatei
+├── init.json - AIEN_TEXTKeySpeichernDatei
+├── install_request.py - EN_TEXT
+├── js_node - comfyuiEN_TEXTJSEN_TEXT
+├── lora_userdatas - EN_TEXTLoraEN_TEXTDaten
+├── pyproject.toml - comfyuiEN_TEXTDatei
+├── requirements.txt - EN_TEXTDatei
+├── src - EN_TEXT
+├── tags_templete EN_TEXTDatenEN_TEXTDateiVorlage （TagEN_TEXTDanbooru，WennEN_TEXTÄndernEN_TEXTVerwenden）
+└── user_data EN_TEXTVerwendenEN_TEXTDatenEN_TEXTDatei（EN_TEXTÄndern）
 ```
 
-#### 前端源码说明
-前端框架是Vue3+Javascript，yarn管理依赖包，使用时请先执行`yarn install`安装依赖包，编译请使用`yarn run build`，会自动打包到插件的`dist`目录中
+#### EN_TEXT
+EN_TEXTVue3+Javascript，yarnEN_TEXT，VerwendenEN_TEXT`yarn install`EN_TEXT，EN_TEXTVerwenden`yarn run build`，EN_TEXT`dist`EN_TEXT
 
-#### 提交代码
-请克隆完整的仓库代码，提交代码时请测试一遍随后提交代码，等待我的审核确认后即可合并代码
+#### EN_TEXT
+EN_TEXT，EN_TEXT，EN_TEXTBestätigenEN_TEXT

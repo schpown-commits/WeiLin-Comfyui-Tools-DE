@@ -12,7 +12,7 @@ import re
 from .install_request import *
 install_requirements()
 
-# 检测系统语言
+# Systemsprache erkennen
 localLan = locale.getdefaultlocale()[0]
 placeholder_text = ""
 retrun_name_text = ""
@@ -22,13 +22,13 @@ node_model_text = ""
 placeholder_node_text = ""
 placeholder_lora_text = ""
 if localLan == "zh_CN":
-    placeholder_text = "输入提示词"
-    placeholder_lora_text = "Lora信息框"
-    placeholder_node_text = "输入节点命名"
-    retrun_name_text = "条件"
-    retrun_type_text = "条件"
-    node_name_text = "WeiLin-Tools-节点工具"
-    node_model_text = "模型"
+    placeholder_text = "Prompt eingeben"
+    placeholder_lora_text = "LoRA-Info"
+    placeholder_node_text = "Node-Namen eingeben"
+    retrun_name_text = "Bedingung"
+    retrun_type_text = "Bedingung"
+    node_name_text = "WeiLin-Tools-EN_TEXT"
+    node_model_text = "EN_TEXT"
 else:
     placeholder_text = "input prompt words"
     placeholder_lora_text = "Lora info box"
@@ -63,7 +63,7 @@ class AnyType(str):
 
 ANY = AnyType("*")
 
-# 提示词UI
+# HinweisEN_TEXTUI
 
 
 class WeiLinPromptUI:
@@ -126,7 +126,7 @@ class WeiLinPromptUI:
 
     CATEGORY = node_name_text
 
-    # 加载Lora
+    # LadenLora
     def load_lora_ing(self, positive="", auto_random=False, lora_str="",
                       temp_str="", temp_lora_str="", random_template="", opt_text="",
                       opt_clip=None, opt_model=None):
@@ -155,7 +155,7 @@ class WeiLinPromptUI:
 
         if auto_random:
             if len(random_template) > 0:
-                # 随机Tag获取
+                # ZufälligTagAbrufen
                 random_tag = go_run_node_auto_random_tag(random_template)
                 if len(random_tag["random_tags"]) > 0:
                     positive = random_tag["random_tags"]
@@ -169,7 +169,7 @@ class WeiLinPromptUI:
         wlr_matches = re.findall(wlr_pattern, text_dec)
 
         # print(wlr_matches)
-        # 如果找到了wlr标签，创建lora列表
+        # WennEN_TEXTwlrTags，EN_TEXTloraEN_TEXT
         if wlr_matches:
             extracted_loras = []
             for lora_path, model_weight, text_weight in wlr_matches:
@@ -180,34 +180,34 @@ class WeiLinPromptUI:
                 })
 
             # print(extracted_loras)
-            # 如果已经有lora_list，合并它们
+            # WennEN_TEXTlora_list，EN_TEXT
             if lora_list is not None:
                 lora_list.extend(extracted_loras)
             else:
                 lora_list = extracted_loras
 
-            # 从text_dec中移除这些标签
+            # EN_TEXTtext_decEN_TEXTTags
             clean_text_dec = re.sub(wlr_pattern, '', text_dec)
-            # 清理连续的逗号
+            # EN_TEXT
             clean_text_dec = re.sub(r',\s*,', ',', clean_text_dec)
-            # 清理开头和结尾的逗号
+            # EN_TEXT
             clean_text_dec = clean_text_dec.strip().strip(',').strip()
             text_dec = clean_text_dec
 
-        # 当模型不为空时
+        # EN_TEXT
         if opt_model != None and lora_list != None:
             for str_lora_item in lora_list:
                 # print(loar_sim_path,str_n_arr)
                 strength_model = float(str_lora_item["weight"])
                 strength_clip = float(str_lora_item["text_encoder_weight"])
-                print("模型权重strength_model：", strength_model,
-                      "文本权重strength_clip：", strength_clip)
+                print("EN_TEXTstrength_model：", strength_model,
+                      "EN_TEXTstrength_clip：", strength_clip)
 
                 lora_path = folder_paths.get_full_path(
                     "loras", str_lora_item["lora"])
                 if lora_path == None:
-                    raise ValueError(f'无法找到Lora文件: {str_lora_item["lora"]}')
-                print("加载Lora lora_path:", lora_path)
+                    raise ValueError(f'EN_TEXTLoraDatei: {str_lora_item["lora"]}')
+                print("LadenLora lora_path:", lora_path)
                 lora = None
                 if self.loaded_loraA is not None:
                     if self.loaded_loraA[0] == lora_path:
@@ -240,7 +240,7 @@ class WeiLinPromptUI:
         # return (model_lora_second, clip_lora_second)
 
 
-# 提示词UI - 仅使用Lora堆
+# HinweisEN_TEXTUI - EN_TEXTVerwendenLoraEN_TEXT
 class WeiLinPromptUIOnlyLoraStack:
 
     def __init__(self):
@@ -277,7 +277,7 @@ class WeiLinPromptUIOnlyLoraStack:
 
     CATEGORY = node_name_text
 
-    # 加载Lora
+    # LadenLora
     def load_lora_ing(self, clip=None, model=None, lora_str="", temp_lora_str=""):
         model_lora_secondA = model
         clip_lora_secondA = clip
@@ -288,20 +288,20 @@ class WeiLinPromptUIOnlyLoraStack:
             json_object = json.loads(lora_str)
             lora_list = json_object
 
-        # 当模型不为空时
+        # EN_TEXT
         if model != None and lora_list != None:
             for str_lora_item in lora_list:
                 # print(loar_sim_path,str_n_arr)
                 strength_model = float(str_lora_item["weight"])
                 strength_clip = float(str_lora_item["text_encoder_weight"])
-                print("模型权重strength_model：", strength_model,
-                      "文本权重strength_clip：", strength_clip)
+                print("EN_TEXTstrength_model：", strength_model,
+                      "EN_TEXTstrength_clip：", strength_clip)
 
                 lora_path = folder_paths.get_full_path(
                     "loras", str_lora_item["lora"])
                 if lora_path == None:
-                    raise ValueError(f'无法找到Lora文件: {str_lora_item["lora"]}')
-                print("加载Lora lora_path:", lora_path)
+                    raise ValueError(f'EN_TEXTLoraDatei: {str_lora_item["lora"]}')
+                print("LadenLora lora_path:", lora_path)
                 lora = None
                 if self.loaded_loraA is not None:
                     if self.loaded_loraA[0] == lora_path:
@@ -319,12 +319,12 @@ class WeiLinPromptUIOnlyLoraStack:
                 model_lora_secondA, clip_lora_secondA = load_lora_for_models(
                     model_lora_secondA, clip_lora_secondA, lora, strength_model, strength_clip)
             else:
-                print("Lora堆没有可用的Lora信息")
+                print("LoraEN_TEXTLoraInfo")
 
         return (clip_lora_secondA, model_lora_secondA)
         # return (model_lora_second, clip_lora_second)
 
-# 提示词UI - 不加载Lora
+# HinweisEN_TEXTUI - EN_TEXTLadenLora
 
 
 class WeiLinPromptUIWithoutLora:
@@ -392,7 +392,7 @@ class WeiLinPromptUIWithoutLora:
 
         if auto_random:
             if len(random_template) > 0:
-                # 随机Tag获取
+                # ZufälligTagAbrufen
                 random_tag = go_run_node_auto_random_tag(random_template)
                 if len(random_tag["random_tags"]) > 0:
                     positive = random_tag["random_tags"]
@@ -469,9 +469,9 @@ NODE_DISPLAY_NAME_MAPPINGS = {}
 
 if localLan == "zh_CN":
     NODE_DISPLAY_NAME_MAPPINGS = {
-        "WeiLinPromptUI": "WeiLin 全能提示词编辑器",
-        "WeiLinPromptUIWithoutLora": "WeiLin 提示词编辑器",
-        "WeiLinPromptUIOnlyLoraStack": "WeiLin Lora堆",
+        "WeiLinPromptUI": "WeiLin EN_TEXTHinweisEN_TEXTBearbeitenEN_TEXT",
+        "WeiLinPromptUIWithoutLora": "WeiLin HinweisEN_TEXTBearbeitenEN_TEXT",
+        "WeiLinPromptUIOnlyLoraStack": "WeiLin LoraEN_TEXT",
     }
 else:
     NODE_DISPLAY_NAME_MAPPINGS = {
